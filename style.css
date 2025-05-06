@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #5C3A2E;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  display: block;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  background-color: #957a62;
+}
+
+.home-section{
+  margin-left: 220px;
+  padding: 60px 20px 450px 60px;
+  background:url(bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.header-utama, .catalog-section {
+  margin-left: 220px;
+  padding:  20px;
+  padding-top:100px;
+  padding-bottom: 300px;
+}
+
+.catalog-section{
+  padding-top: 300px ; 
+  padding-bottom:250px;
+}
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #957a62;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.harga {
+  color: #5C3A2E;
+  font-weight: bold;
+}
+
+
+footer {
+  margin-left: 220px;
+  padding: 20px;
+  background-color: #957a62;
+  font-size:xx-large;
+}
